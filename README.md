@@ -32,6 +32,12 @@ Based on the findings, I proposed the following strategies to increase annual me
 - Highlight the convenience and cost savings of annual memberships for regular users.
 - Utilize digital media campaigns to emphasize the exclusive benefits and flexibility of being an annual member.
 
+## Limitations 
+As one month's worth of data already exceeds the maximum rows that both Excel and Google Sheets can handle, I chose MySQL to merge all 12 months of data and clean the data.
+
+
+
+
 ## Conclusion
 This project underscores the importance of data-driven decision-making in marketing strategy. By understanding user behavior and preferences, Cyclistic can effectively tailor its marketing efforts to convert more casual riders into loyal annual members. This case study not only highlights my analytical skills but also my ability to translate data insights into practical business recommendations.
 
