@@ -4,6 +4,16 @@ For Coursea DA Capstone Project - Bike-Share Data Analysis
 ## Intro
 Welcome to the Cyclistic bike-share analysis case study! This project showcases my work as a junior data analyst for Cyclistic, a fictional bike-share company based in Chicago. The case study is part of my professional portfolio and demonstrates my proficiency in data analysis, visualization, and strategic marketing insights.
 
+## Table of Contents
+- [Company Overview](#company-overview)
+- [Project Scenario](#project-scenario)
+- [Objectives](#objectives)
+- [Tools](#tools)
+- [Key Findings](#key-findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- [Conclusion](#conclusion)
+
 ## Company Overview
 Cyclistic, launched in 2016, has quickly become a prominent bike-share service in Chicago, offering a fleet of over 5,800 bicycles and 600 docking stations. The program distinguishes itself by providing not only traditional two-wheeled bikes but also inclusive options like reclining bikes, hand tricycles, and cargo bikes to cater to riders with diverse needs. Cyclistic aims to be both a convenient commuting option and a leisure activity provider, with about 30% of users commuting daily.
 
@@ -16,7 +26,7 @@ The project was driven by three primary questions:
 - Why would casual riders buy Cyclistic annual memberships?
 - How can Cyclistic use digital media to influence casual riders to become members?
 
-## Tool
+## Tools
 - MySql - Data cleaning and manipulating
   - See my code [here]()
 - Tableau - Data visulation
