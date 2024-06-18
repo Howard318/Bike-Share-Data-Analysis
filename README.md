@@ -29,7 +29,6 @@ The project was driven by three primary questions:
 
 ## Tools
 - MySql - Data cleaning and manipulating
-  - See my code [here]()
   - Original Data [here](https://drive.google.com/drive/folders/13K9IWhWYIgR-kPKEcjKaGCZuvCY1xkVN?usp=sharing)
 - Tableau - Data visulation
   - See my dashboard [here](https://public.tableau.com/views/CourseaBikeCase/FinalDashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
