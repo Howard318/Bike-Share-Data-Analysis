@@ -1,5 +1,5 @@
 # Bike-Share-Data-Analysis
-For Coursea DA Capstone Project - Bike-Share Data Analysis
+For Coursera DA Capstone Project - Bike-Share Data Analysis
 
 ## Intro
 Welcome to the Cyclistic bike-share analysis case study! This project showcases my work as a junior data analyst for Cyclistic, a fictional bike-share company based in Chicago. The case study is part of my professional portfolio and demonstrates my proficiency in data analysis, visualization, and strategic marketing insights.
@@ -13,7 +13,7 @@ Welcome to the Cyclistic bike-share analysis case study! This project showcases 
 - [Analysis and Report](#analysis-and-report)
 	- [Overview](#overview)
 	- [Total Ride](#total-ride)
-	- [Average Ride Time in Weekdays](#average-ride-time-in-weekdays)
+	- [Average Ride Time on Weekdays](#average-ride-time-on-weekdays)
 	- [User Count Weekdays](#user-count-weekdays)
 	- [Hourly Ride Count Distribution](#hourly-ride-count-distribution)
 	- [Weather Condition vs. Number of Rides](#weather-condition-vs-number-of-rides)
@@ -48,7 +48,7 @@ Creating a table that will contain all 12 months of Share Bike data.
 Create Table `BikeData_Combine_Tablaeu`
 Like `2023 04 - bike data`;
 ```
-Insterting all 12 months of data into the table for consolidate.
+Inserting all 12 months of data into the table for consolidation.
 ```sql
 INSERT `BikeData_Combine_Tablaeu`
 SELECT *
@@ -98,7 +98,7 @@ INSERT `BikeData_Combine_Tablaeu`
 SELECT *
 FROM `2024 03 - bike data`;
 ```
-Removing unwanted / unneccessary columns
+Removing unwanted/unnecessary columns
 ```sql
 ALTER TABLE `BikeData_Combine_Tablaeu`
 	DROP COLUMN start_station_name, 
@@ -106,7 +106,7 @@ ALTER TABLE `BikeData_Combine_Tablaeu`
     DROP COLUMN end_station_name,
 	DROP COLUMN end_station_id;
 ```
-Create another other table for checking if there are duplicates. If Checking returns 2 or more means there are identical rows and need to be remove.   
+Create another table to check if there are duplicates. If Checking returns 2 or more, it means identical rows need to be removed.   
 ```sql
 CREATE TABLE `BikeData_Combine_Tablaeu2` (
   `ride_id` text,
@@ -155,7 +155,7 @@ Members: 64.11% (3.59 million rides)
 Casual Riders: 35.89% (2.01 million rides)  
 <img width="1509" alt="Screenshot 2024-06-18 at 11 18 27 AM" src="https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/fe8644af-2901-4f3a-a88b-3cb4e13f2990">
 
-### Average Ride Time in Weekdays
+### Average Ride Time on Weekdays
 Casual Riders: Longest on Sunday (24.9 mins), shortest on Wednesday (18.3 mins)  
 Members: Longest on Saturday (13.9 mins), shortest on Thursday (12.0 mins)  
 ![Avg Duration Weekday](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/0cc35a69-8edd-4120-8a91-89a9f93cd124)
@@ -176,16 +176,18 @@ Inverse Relationship: Fewer rides as snow depth increases, especially in winter.
 ![Temp vs Ride](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/0d19afc9-2347-4163-97c4-b6892fc3aa25)
 
 ### Distribution Map
-Geographical Focus: High concentration in Chicago, with ride starts shown for both casual riders (blue) and members (orange) by weekday.
+Geographical Focus: Casual riders (blue) are more concentrated between sightseeing locations and members (orange) are more concentrated in local residential areas.
+
 ## Key Findings
-The analysis revealed distinct usage patterns between casual riders and annual members. For instance, casual riders tend to take longer rides during weekends and holidays, while annual members often use the bikes for shorter, routine commutes. These insights suggested targeted marketing strategies to appeal to casual riders' preferences and lifestyle. Please take a look of the 
+The analysis revealed distinct usage patterns between casual riders and annual members. For instance, casual riders tend to take longer rides during weekends and holidays, while annual members often use the bikes for shorter, routine commutes. These insights suggested targeted marketing strategies to appeal to casual riders' preferences and lifestyles.
 
 ## Recommendations
 Based on the findings, I proposed the following strategies to increase annual memberships:
 
 - Develop weekend and holiday promotions to attract casual riders.
-- Highlight the convenience and cost savings of annual memberships for regular users.
-- Utilize digital media campaigns to emphasize the exclusive benefits and flexibility of being an annual member.
+  - Such as providing exclusive discounted weekend passes for members so the casual user will sign up for membership and potentially become a returning customer.
+- Highlight the convenience and cost savings between member users and casual users.
+- Utilize digital media campaigns to emphasize the exclusive benefits and flexibility of being a member user.
 
 ## Limitations 
 As one month's worth of data already exceeds the maximum rows that both Excel and Google Sheets can handle, I chose MySQL to merge all 12 months of data and clean the data.
