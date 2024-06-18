@@ -1,6 +1,8 @@
-### Cyclistic Bike Share in Chicago 
+# Cyclistic Bike Share in Chicago 
+Case Study - Bike-Share Data Analysis
 
 ## Table of Content
+- [Overview](#overview)
 - [Total Ride](#total-ride)
 - [Member Type](member-type)
 - [Average Ride Time in Weekdays](average-ride-time-in-weekdays)
@@ -8,6 +10,9 @@
 - [Hourly Ride Count Distribution](hourly-ride-count-distribution)
 - [Weather Condition vs. Number of Rides](weather-condition-vs-number-of-rides)
 - [Distribution Map](distribution-map)
+
+## Overview
+This report provides a detailed analysis of the bike-share usage patterns from April 2023 to March 2024, based on the data presented in the dashboard. A total of 5.60 million rides were taken during this period, with members significantly outpacing casual riders. The following sections summarize the key insights from the dashboard.
 
 ## Total Ride
 Total Rides: 5.60 million
