@@ -176,9 +176,17 @@ Inverse Relationship: Fewer rides as snow depth increases, especially in winter.
 ![Temp vs Ride](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/0d19afc9-2347-4163-97c4-b6892fc3aa25)
 
 ### Distribution Map
-Geographical Focus: Casual riders (blue) are more concentrated between sightseeing locations and members (orange) are more concentrated in local residential areas.
+An overview of the distribution map
+![Map (2)](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/6c398666-25aa-479a-bedd-db7b024557c9)
+Casual riders (blue) are more concentrated between sightseeing locations 
+![Map](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/4e242758-82ee-4ff3-a88d-7fbd60176231)
+Members (orange) are more concentrated in local residential areas.
+![Map (1)](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/eb753ddc-fbf5-41ab-99f2-756dc8ee5cc3)
+
+Please click [here](https://public.tableau.com/views/CourseaBikeCase/Map?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) to interactive with the map on Tableau.
 
 ## Key Findings
+
 The analysis revealed distinct usage patterns between casual riders and annual members. For instance, casual riders tend to take longer rides during weekends and holidays, while annual members often use the bikes for shorter, routine commutes. These insights suggested targeted marketing strategies to appeal to casual riders' preferences and lifestyles.
 
 ## Recommendations
