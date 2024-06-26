@@ -18,7 +18,7 @@ Welcome to the Cyclistic bike-share analysis case study! This project showcases 
 	- [Hourly Ride Count Distribution](#hourly-ride-count-distribution)
 	- [Weather Condition vs. Number of Rides](#weather-condition-vs-number-of-rides)
 	- [Distribution Map](#distribution-map)
- 	- [Dash Board](#dash-board)
+   	- [Dash Board](#dash-board)
 - [Key Findings](#key-findings)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
