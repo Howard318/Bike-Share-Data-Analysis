@@ -18,7 +18,7 @@ Welcome to the Cyclistic bike-share analysis case study! This project showcases 
 	- [Hourly Ride Count Distribution](#hourly-ride-count-distribution)
 	- [Weather Condition vs. Number of Rides](#weather-condition-vs-number-of-rides)
 	- [Distribution Map](#distribution-map)
-   	- [Dash Board](#dash-board)
+- [Dash Board](#dash-board)
 - [Key Findings](#key-findings)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
@@ -186,7 +186,7 @@ Members (orange) are more concentrated in local residential areas.
 
 Please click [here](https://public.tableau.com/views/CourseaBikeCase/Map?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) to interact with the map on Tableau.
 
-### Dash Board
+## Dash Board
 An interactive dashboard can be accessed [here](https://howard318.github.io/bike_share_tableau_dashboard/)
 ![Final Dashboard (1)](https://github.com/Howard318/Bike-Share-Data-Analysis/assets/38737417/6eed7214-5c99-4f0f-9a91-b0a3a81c7edd)
 
